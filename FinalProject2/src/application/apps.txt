@@ -1,0 +1,4 @@
+Spotify,C:\Users\guidenj\AppData\Roaming\Spotify\Spotify.exe
+CS:GO,C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe
+Minecraft,C:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe
+ESEA,C:\Program Files\ESEA\ESEA Client\eseaclient.exe
