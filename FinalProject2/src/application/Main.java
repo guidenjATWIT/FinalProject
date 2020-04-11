@@ -24,8 +24,8 @@ import javafx.stage.Stage;
 
 
 public class Main extends Application {
-	public static String apps_loc = "C:\\Users\\guidenj\\eclipse-workspace\\FinalProject2\\src\\application\\apps.txt";
-	public static String books_loc = "C:\\Users\\guidenj\\eclipse-workspace\\FinalProject2\\src\\application\\books.txt";
+	public static String apps_loc = "src\\application\\apps.txt";
+	public static String books_loc = "src\\application\\books.txt";
 	@Override
 	public void start(Stage primaryStage) {
 		try {
