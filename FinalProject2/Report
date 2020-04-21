@@ -1,0 +1,36 @@
+Project Report
+Problem:
+With technology advancing, many people still find themselves with slow computers that take up to 5 minutes just to boot up. With this, many programs are required to launch when the computer starts up. This software would allow for the user to allocate the launching of those applications to after the machine fully boots. They also have the option to choose which apps to launch depending on that day’s project as well as a bookmark section to launch websites from their browser.
+Design: 
+The basic design of this program is as follows:
+
+- On start, applications and bookmarks are loaded in from the appropriate storage text files
+- getApplications() and getBookmarks() return ArrayLists of buttons primed with data from App/Bookmark classes (data from storage text files)
+- Buttons are added to the GUI
+
+- There is an abstract Launchable class
+- Launchable acts as a template for App and Bookmark classes
+- App/Bookmark classes fill launchApplication() method to perform actions when the button is clicked
+
+- When adding a launchable, an input window appears to the user
+- The user provides a string of information in the format of <App Name>,<File Location>, and if it’s a bookmark, a <URL>
+- That data is then sent to the storage file and the GUI is cleared and updated with the new button for the launchable
+
+- When clearing the launchables, the text files are overwritten
+- The launchables are then removed from the GUI
+
+Topics to Solution
+Many of the useful topics I have learned from this year in computer science came into play during this project. Earlier in the year we dove a little deeper into the concept of reading and writing to text files, which inspired the way I decided to store added applications. Working with ArrayLists and the creation of different types of methods allowed me to easily perform the actions needed in this software. Abstract methods and classes lessened the amount of code I needed to write to differentiate App and Bookmark objects. Overall, many of the concepts in this project stemmed directly from what I have learned in Comp 2.
+Implementation
+•	JavaFX
+•	Eclipse IDE
+I thought about using SceneBuilder for this project. However, I’ve always felt I have learned the inner workings of layout and the code in general without using external drag and drop software. I figured this would give a little bit more of a challenge for this project.
+Instructions
+-	Running the program is fairly straight forward, just run through eclipse
+-	The location of the storage files should be set to inside the project
+-	Just make sure there is no current data in the files before adding apps/bookmarks.
+-	When adding a new app or bookmark, please provide the following format as a string: (Name),(File Location), (if bookmark, then URL)
+Screenshots
+ 
+ 
+
