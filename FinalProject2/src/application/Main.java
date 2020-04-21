@@ -127,7 +127,6 @@ public class Main extends Application {
 		dialog.setHeaderText("Format: <NAME>,<FILE_LOCATION>,(URL)");
 		dialog.setContentText("Enter: ");
 
-		// Traditional way to get the response value.
 		Optional<String> result = dialog.showAndWait();
 		if (result.isPresent()){ 
 			return result.get();

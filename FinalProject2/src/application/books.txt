@@ -1,1 +1,1 @@
-Blackboard,test,test
+Blackboard,C:\Program Files (x86)\Google\Chrome\Application\chrome.exe,https://wit.blackboard.com/
